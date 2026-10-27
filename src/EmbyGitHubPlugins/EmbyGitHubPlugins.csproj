@@ -1,0 +1,16 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <!-- Same target framework and SDK package as the official Emby SDK templates. -->
+    <TargetFramework>netstandard2.0</TargetFramework>
+    <LangVersion>latest</LangVersion>
+    <AssemblyName>EmbyGitHubPlugins</AssemblyName>
+    <RootNamespace>EmbyGitHubPlugins</RootNamespace>
+    <Version>0.1.0</Version>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="MediaBrowser.Server.Core" Version="4.9.1.90" />
+  </ItemGroup>
+
+</Project>
